@@ -79,33 +79,33 @@ const Navbar = () => {
       {/* LOGO */}
       <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
         <Link
-          href="/"
+          href="https://www.youtube.com/@vasin-fr"
           className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
         >
-          <span className="text-white mr-1">Lama</span>
+          <span className="text-white mr-1">Vasin</span>
           <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">
-            .dev
+            .fr
           </span>
         </Link>
       </div>
       {/* SOCIAL */}
       <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
+        <Link href="https://github.com/vasin-fr">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
+        {/* <Link href="/">
           <Image src="/dribbble.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
+        </Link> */}
+        <Link href="https://www.instagram.com/vasin.oleksii/">
           <Image src="/instagram.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
+        {/* <Link href="/">
           <Image src="/facebook.png" alt="" width={24} height={24} />
         </Link>
         <Link href="/">
           <Image src="/pinterest.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
+        </Link> */}
+        <Link href="https://www.linkedin.com/in/vasin-oleksii/">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
       </div>
