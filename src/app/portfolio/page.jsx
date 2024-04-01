@@ -16,7 +16,7 @@ const items = [
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
-    title: "REST Countries API with color theme switcher",
+    title: "REST Countries",
     desc: "Our project integrates the REST Countries API with a color theme switcher. Explore countries' data and switch between color themes seamlessly. Perfect for discovering global insights with style.",
     img: "/lang.jpg",
     link: "https://lang.vasin.fr/",
